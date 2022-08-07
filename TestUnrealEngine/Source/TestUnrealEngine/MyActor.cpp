@@ -22,12 +22,18 @@ void AMyActor::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	//로그찍기
+	//카테고리,수준,형식,인자
+	//UE_LOG(LogTemp, Warning, TEXT("Begin Play %d"), 3);
+	
 }
 
 // Called every frame
 void AMyActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//UE_LOG(LogTemp, Error, TEXT("Tick %f"), DeltaTime);
 
+	AddActorLocalRotation(FRotator(0.f, RotateSpeed*DeltaTime, 0.f));
 }
 
