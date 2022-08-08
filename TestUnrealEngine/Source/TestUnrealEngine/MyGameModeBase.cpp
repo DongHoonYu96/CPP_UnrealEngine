@@ -3,9 +3,10 @@
 
 #include "MyGameModeBase.h"
 #include "MyPawn.h"
+#include "MyCharacter.h"
 
 //기본생성자
 AMyGameModeBase::AMyGameModeBase()
 {
-	DefaultPawnClass = AMyPawn::StaticClass();
+	DefaultPawnClass = AMyCharacter::StaticClass();
 }
