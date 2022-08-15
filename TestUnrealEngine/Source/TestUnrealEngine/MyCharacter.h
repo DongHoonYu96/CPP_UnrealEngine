@@ -30,6 +30,11 @@ public:
 	void LeftRight(float Value);
 	void Yaw(float Value);
 
+	void Attack();
+
+	UFUNCTION()
+	void OnAttackMontageEnded(UAnimMontage* Montage, bool binterrupted);
+
 private:
 	UPROPERTY(VisibleAnywhere)
 	class USpringArmComponent* SpringArm;
@@ -37,4 +42,20 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* Camera;
 
+	UPROPERTY(VisibleAnywhere, Category=Pawn)
+	bool IsAttaking=false;
+
+	UPROPERTY()
+	class UMyAnimInstance* Animinstance;
+
+	UPROPERTY()
+	int32 AttackIndex=0;
+
+public:
+
+	UPROPERTY()
+	float UpDownValue = 0.f;
+
+	UPROPERTY()
+	float LeftRightValue = 0.f;
 };

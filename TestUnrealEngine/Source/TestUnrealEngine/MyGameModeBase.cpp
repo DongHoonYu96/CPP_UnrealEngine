@@ -12,7 +12,7 @@ AMyGameModeBase::AMyGameModeBase()
 
 	//FClassFinder생성자(찾을클래스)
 	static ConstructorHelpers::FClassFinder<ACharacter>
-		BP_Char(TEXT("Blueprint'/Game/BluePrints/BP_MyCharacter.BP_MyCharacter_C'"));
+		BP_Char(TEXT("Blueprint'/Game/BluePrints/BP_MyCharater.BP_MyCharater_C'"));
 
 	if (BP_Char.Succeeded())
 		DefaultPawnClass = BP_Char.Class;
