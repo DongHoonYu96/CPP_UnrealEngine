@@ -2,7 +2,6 @@
 
 
 #include "Mover.h"
-
 #include "Math/UnrealMathUtility.h"
 
 // Sets default values for this component's properties
@@ -22,6 +21,7 @@ void UMover::BeginPlay()
 	Super::BeginPlay();
 
 	OriginalLocation = GetOwner()->GetActorLocation();
+
 }
 
 
@@ -30,14 +30,27 @@ void UMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponent
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	if (ShouldMove)
-	{
-		FVector CurrentLocation = GetOwner()->GetActorLocation();
-		FVector TargetLocation = OriginalLocation + MoveOffset;
-		float Speed = FVector::Distance(OriginalLocation, TargetLocation) / MoveTime;
+	//기본값을 돌와야하는 것으로 설정.
+	//움직일때만 위아래로 이동
+	FVector TargetLocation = OriginalLocation;
 
-		FVector NewLocation = FMath::VInterpConstantTo(CurrentLocation, TargetLocation, DeltaTime, Speed);
-		GetOwner()->SetActorLocation(NewLocation);
+
+	if (ShouldMove) {
+		TargetLocation = OriginalLocation + MoveOffset;
 	}
+
+	
+	FVector CurrentLocation = GetOwner()->GetActorLocation();
+	float Speed = MoveOffset.Length() / MoveTime;
+
+	//목표까지 이동중인 벡터를 반환함.
+	FVector NewLocation = FMath::VInterpConstantTo(CurrentLocation, TargetLocation, DeltaTime, Speed);
+	GetOwner()->SetActorLocation(NewLocation);
+
+}
+
+void UMover::SetShouldMove(bool NewShouldMove)
+{
+	ShouldMove = NewShouldMove;
 }
 
