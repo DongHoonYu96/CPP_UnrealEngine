@@ -15,6 +15,18 @@
 <img width="999" alt="map" src="https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/316baa79-a8cc-471b-9869-9587dfcce056">
 
 
+**게임 설명**
+1. 비밀통로가 잠겨있습니다.
+![닫힌문](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/402af9a0-8684-4b02-9772-667fdbc2b5a2)
+
+2. 조각상을 올리면 비밀통로가 열립니다.
+
+3.  
+
+4. 
+
+5. 
+
 
 **강의수강**
 
