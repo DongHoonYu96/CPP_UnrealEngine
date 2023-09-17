@@ -23,6 +23,7 @@
 
 2. 조각상을 올리면 비밀통로가 열립니다.
 ![조각상들기](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/42170ab4-7b05-4d89-942e-486906f0823d)
+![조각상문에올리기](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/c83ecd0d-6f2f-444a-ab0b-8023c53b5c21)
 ![문열림](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/0f95b004-1f2a-4813-840f-51cdf83aac82)
 
 
