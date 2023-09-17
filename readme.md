@@ -19,26 +19,26 @@
 
 **게임 설명**
 1. 비밀통로가 잠겨있습니다.
-![닫힌문](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/402af9a0-8684-4b02-9772-667fdbc2b5a2)
+![닫힌문](https://github.com/DongHoonY
 
 2. 조각상을 올리면 비밀통로가 열립니다.
-![조각상들기](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/42170ab4-7b05-4d89-942e-486906f0823d)
+![조각상들기](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/0a4874e2-d51f-40e7-81ec-58deb5f01ecb)
 
-![조각상문에올리기](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/c83ecd0d-6f2f-444a-ab0b-8023c53b5c21)
+![조각상문에올리기](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/4527bcbe-2ca5-41e4-80fb-2710995c8fc0)
 
-![문열림](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/0f95b004-1f2a-4813-840f-51cdf83aac82)
+![문열림](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/5760dd3d-c766-4e26-b539-8ab67673dd12)
 
 
 4.  비밀통로를 따라가면 보물이 있으나, 보물을 들면 철창이 닫힙니다.
-![닫힌철창](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/9c0f5132-f84e-48d3-a714-22ee7522a480)
+![닫힌철창](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/cf168abb-18fd-46b1-ace8-4d1cd6fa9495)
 
 
 5. 다른 방에 항아리가 있습니다.
-![항아리](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/277d0e47-8867-4eb9-8f17-716b7a853f25)
+![항아리](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/22d38f7f-0a53-4a21-89f2-9b9839705fd3)
 
 
 6. 항아리를 받침대에 올리고, 보물을 가지고 탈출합니다!
-![탈출](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/d4f61b06-8855-4c13-9830-ec54a91f3fe3)
+![탈출](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/fc915a8f-b9a7-4c64-9f89-a721af385dd0)
 
 
 
