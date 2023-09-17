@@ -12,14 +12,14 @@
 
 
 **맵 구성도**
-<img width="999" alt="map" src="https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/316baa79-a8cc-471b-9869-9587dfcce056">
+![map](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/dd0ac420-466b-4403-9c10-ec05ad62d362)
 
 
 
 
 **게임 설명**
 1. 비밀통로가 잠겨있습니다.
-![닫힌문](https://github.com/DongHoonY
+![닫힌문](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/91670590-f18a-46eb-a1ec-d1a772d92dcb)
 
 2. 조각상을 올리면 비밀통로가 열립니다.
 ![조각상들기](https://github.com/DongHoonYu96/CPP_UnrealEngine/assets/50190387/0a4874e2-d51f-40e7-81ec-58deb5f01ecb)
